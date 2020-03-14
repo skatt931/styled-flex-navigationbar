@@ -78,7 +78,7 @@ main {
     margin-left: 1rem;
 }
 
-.nav-link i {
+.nav-link svg {
     min-width: 2rem;
     margin: 0 1.5rem;
 }
@@ -113,12 +113,12 @@ main {
     width: 100%;
 }
 
-.logo i {
+.logo svg {
     transform: rotate(0deg);
     transition: transform var(--transition-speed);
 }
 
-.navbar:hover .logo i {
+.navbar:hover .logo svg {
     transform: rotate(-180deg);
 }
 
